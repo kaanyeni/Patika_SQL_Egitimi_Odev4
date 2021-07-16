@@ -7,5 +7,5 @@
 + ` select count (*) from film where title like ('T%') and rating='G'`
 4. Soru: country tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluşmaktadır?
 + `select count (*) from country where length(country)= 5  `
-+ 5. Soru: city tablosundaki şehir isimlerinin kaçtanesi 'R' veya r karakteri ile biter?
+5. Soru: city tablosundaki şehir isimlerinin kaçtanesi 'R' veya r karakteri ile biter?
 + ` select count(*) from city where city ilike('%r')  `
